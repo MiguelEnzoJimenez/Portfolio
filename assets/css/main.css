@@ -1757,7 +1757,7 @@ input, select, textarea {
 	}
 
 	header p {
-		color: #b2b2b2;
+		color: #000000;
 		position: relative;
 		margin: 0 0 1.5em 0;
 	}
@@ -2682,7 +2682,7 @@ input, select, textarea {
 		#main > section {
 			border-top: solid 2px #000000;
 			margin: 4em 0 0 0;
-			padding: 4em 0 0 0;
+			padding: 1em 0 0 0;
 		}
 
 			#main > section:first-child {
