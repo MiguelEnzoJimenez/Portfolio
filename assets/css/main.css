@@ -1,12 +1,6 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic");
 
-/*
-	Strata by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -98,7 +92,7 @@ input, select, textarea {
 		}
 
 	body, input, select, textarea {
-		color: #a2a2a2;
+		color: #000000;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 16pt;
 		font-weight: 400;
@@ -110,19 +104,17 @@ input, select, textarea {
 		-webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-		border-bottom: dotted 1px;
-		color: #49bf9d;
 		text-decoration: none;
 	}
 
 		a:hover {
 			border-bottom-color: transparent;
 			color: #49bf9d !important;
-			text-decoration: none;
+			text-decoration: underline;
 		}
 
 	strong, b {
-		color: #787878;
+		color: #000000;
 		font-weight: 400;
 	}
 
@@ -135,7 +127,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #787878;
+		color: #000000;
 		font-weight: 400;
 		line-height: 1em;
 		margin: 0 0 1em 0;
@@ -2039,7 +2031,6 @@ input, select, textarea {
 
 	.image {
 		border-radius: 0.35em;
-		border: 0;
 		display: inline-block;
 		position: relative;
 	}
@@ -2231,7 +2222,7 @@ input, select, textarea {
 			}
 
 			ul.labeled-icons li h3 {
-				color: #b2b2b2;
+				color: #000000;
 				left: 0;
 				position: absolute;
 				text-align: center;
@@ -2689,7 +2680,7 @@ input, select, textarea {
 	}
 
 		#main > section {
-			border-top: solid 2px #efefef;
+			border-top: solid 2px #000000;
 			margin: 4em 0 0 0;
 			padding: 4em 0 0 0;
 		}
